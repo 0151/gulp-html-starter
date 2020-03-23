@@ -1,0 +1,26 @@
+.button {
+    display: inline-flex;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 10px;
+
+    &_size {
+
+        &_xl {
+            font-size: 3em;
+            padding: .5em 1em;
+        }
+    }   
+
+    &_view {
+
+        &_action {
+            background-color: palevioletred;
+            color: white;
+        }
+    }
+
+    &_animated {
+        animation: provocation 1s infinite;
+    }
+}

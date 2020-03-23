@@ -1,0 +1,14 @@
+.home {
+
+    &__title {
+        font-family: $font-stack-line;
+        font-size: 10em;
+        color: aquamarine;
+        animation: colorize 10s ease infinite;
+    }
+
+    &__cat {
+        vertical-align: top;
+        animation: flying 3s ease infinite;
+    }
+}
